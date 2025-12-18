@@ -1,0 +1,17 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+/* ここにスタイルを追加 */
+
+h1 {
+  color: blue;
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+}
+
+p span {
+  font-size: 200%;
+}
