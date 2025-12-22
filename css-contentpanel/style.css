@@ -54,6 +54,7 @@ a:focus {
 
 h1,
 .controls {
+    height: 100px;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -85,7 +86,8 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: rgb(40 88 123 / 1.0);
 }
 
