@@ -3,21 +3,12 @@
 @font-face {
     font-family: 'fira_sansextralight';
     src: url('firasans-extralight-webfont.woff2') format('woff2'),
-         url('firasans-extralight-webfont.woff') format('woff');
+        url('firasans-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-.roboto- <uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
 
 html {
   font-size: 10px;
