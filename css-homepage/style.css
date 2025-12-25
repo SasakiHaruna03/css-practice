@@ -1,0 +1,176 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+    float: left;
+    width: 55%;
+}
+
+aside {
+    float: left;
+    width: 25%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* 本文 */
+@font-face {
+    font-family: 'fira_sansextralight';
+    src: url('firasans-extralight-webfont.woff2') format('woff2'),
+        url('firasans-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 見出し用 */
+@font-face {
+    font-family: 'nobilemedium_italic';
+    src: url('nobile-mediumitalic-webfont.woff2') format('woff2'),
+        url('nobile-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: 'fira_sansextralight', 'Georgia', serif;
+    font-size: 13px;
+    line-height: 1.6;
+    letter-spacing: 0.0015em;
+    word-spacing: 0.05em;
+}
+
+h1,h2 {
+    font-family: 'nobilemedium_italic', 'Arial', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.005em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+section h2 + p {
+    text-indent: 20px;
+}
+
+a {
+    outline-color: transparent;
+}
+
+a:visited {
+    color: #a66;
+}
+
+a:hover {
+    color: #a66;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #a66;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: darkred;
+    color: white;
+}
+
+a[href^="http"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    margin-left: 0.25em;
+	background-size: 100%;
+    background-image: url("external-link-52.png");
+}
+
+ul li,
+ol li {
+    line-height: 1.6;
+}
+
+ol li {
+    list-style-type: lower-roman;
+}
+
+ul li {
+    list-style-type: square;
+}
+
+nav {
+    display: block;
+    gap: 0.625%;
+    font-size: 1em;
+    line-height: 1;
+}
+
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    display: flex;
+    font-size: 1.2em;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    padding: 0.5em 0.5em;
+    color: black;
+    border: 1px solid rgb(19, 13, 1);
+    border-radius: 2px;
+    justify-content: center
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+    background: rgb(228, 197, 176);
+    color: black;
+}
+
+nav a:hover {
+    background: rgb(201, 131, 70);
+}
+
+nav a:active {
+    background: darkred;
+    color: white;
+}
